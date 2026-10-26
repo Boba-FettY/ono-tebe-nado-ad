@@ -95,13 +95,11 @@
   display: block;
 }
 
-/* В макете у слова "ОНО" буквы стоят плотнее */
 .aligned-text_left {
   text-align: left;
-  letter-spacing: 0.3em; 
+  letter-spacing: 0.3em;
 }
 
-/* У слова "ТЕБЕ" и "НАДО" буквы раздвинуты */
 .aligned-text_center {
   text-align: center;
   margin-top: 20px;
