@@ -1,10 +1,116 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-  </head>
-  <body></body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Аукцион вещей, в которые никто не верил.">
+  <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+  <link rel="stylesheet" href="./fonts/fonts.css">
+  <link rel="stylesheet" href="./styles/global.css">
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__menu" aria-label="Основная навигация">
+      <ul class="header__links-list">
+        <li class="header__links-list-item header__links-list-item_no-bullet"><a class="header__link header__link_active" href="#home">главная</a></li>
+        <li class="header__links-list-item"><a class="header__link" href="#lots">посмотреть лоты</a></li>
+        <li class="header__links-list-item"><a class="header__link" href="#about">об аукционе</a></li>
+      </ul>
+    </nav>
+    <a class="header__logo" href="#home" aria-label="Оно тебе надо — главная">
+      <img class="header__logo-image" src="./images/logo-black.svg" alt="Оно тебе надо">
+    </a>
+    <address class="address header__address">
+      <a href="tel:+99995555555">+9 999 555 5555</a>
+      <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+      <span>наб. Принсенграхт, 263-265,<br>Амстердам</span>
+    </address>
+  </header>
+
+  <main>
+    <section class="cover" id="home">
+      <div class="overlay"></div>
+      <h1 class="cover__title">
+        <span class="aligned-text aligned-text_left">Оно</span>
+        <span class="aligned-text aligned-text_center">тебе</span>
+        <span class="aligned-text aligned-text_right">надо<span class="no-letter-spacing">.</span></span>
+      </h1>
+      <div class="cover__description">
+        <p class="cover__description-text">Аукцион вещей, в которые <span class="cover__description-nowrap">никто не верил</span></p>
+        <a class="bet-button" href="#lots">Сделать ставку</a>
+      </div>
+    </section>
+
+    <section class="lots" id="lots">
+      <h2 class="lots__heading">Лоты</h2>
+      <ul class="lots__card-list">
+        <li class="lots__card-list-item">
+          <a class="card-link" href="#about">
+            <article class="card card_type_film">
+              <div class="overlay"></div>
+              <h3 class="card__title">Фильм, который никто не заметил</h3>
+              <p class="card__text">Плод работы студии, которой не понравилось, что они сделали. Поэтому они просто бросили работу и ушли снимать другой фильм. А потом про это кино не вспоминали ещё много лет.</p>
+            </article>
+          </a>
+        </li>
+        <li class="lots__card-list-item">
+          <a class="card-link" href="#about">
+            <article class="card card_type_book">
+              <div class="overlay"></div>
+              <h3 class="card__title">Книга, которую забыли</h3>
+              <p class="card__text">Книга, которую всю жизнь писали в стол, а потом случайно нашли и давай изучать. Оказалось, это настоящая находка для тех, кто ищет себя и свои мечты.</p>
+            </article>
+          </a>
+        </li>
+        <li class="lots__card-list-item">
+          <a class="card-link" href="#about">
+            <article class="card card_type_picture">
+              <div class="overlay"></div>
+              <h3 class="card__title">Картина, которую смогли оценить не сразу</h3>
+              <p class="card__text">На картине вроде бы ничего особенного. Просто поле, просто небо. Но что, если присмотреться? Возможно, именно вы увидите то, что не заметили другие.</p>
+            </article>
+          </a>
+        </li>
+      </ul>
+      <a class="lots__look-more-link" href="#about">Посмотреть больше</a>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about__column">
+        <div class="about__logo">
+          <img class="about__logo-image" src="./images/logo-white.svg" alt="Оно тебе надо">
+        </div>
+      </div>
+      <div class="about__column about__column_content">
+        <h2 class="about__title">Об аукционе</h2>
+        <div class="about__text">
+          <p>Здесь вы не встретите очередное собрание скучных и неинтересных вещей. Наш аукцион — это место, где можно найти настоящие сокровища, которые не каждый способен заметить.</p>
+          <p>Мы проводим аукцион вещей, в которые никто не верил, и убеждены, что именно здесь вы сможете найти то, что давно искали. Ведь иногда то, что кажется ненужным, на самом деле оказывается бесценным.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <address class="address footer__address">
+      <a href="tel:+99995555555">+9 999 555 5555</a>
+      <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+      <span>наб. Принсенграхт, 263-265,<br>Амстердам</span>
+    </address>
+    <nav class="footer__menu" aria-label="Навигация в подвале">
+      <ul class="footer__menu-list">
+        <li class="footer__menu-list-item"><a class="footer__menu-link footer__menu-link_active" href="#home">главная</a></li>
+        <li class="footer__menu-list-item"><a class="footer__menu-link" href="#lots">посмотреть лоты</a></li>
+        <li class="footer__menu-list-item"><a class="footer__menu-link" href="#about">об аукционе</a></li>
+      </ul>
+    </nav>
+    <ul class="footer__social-list">
+      <li class="footer__social-list-item"><a class="footer__social-link" href="https://youtube.com" aria-label="YouTube"><img class="footer__social-icon" src="./images/yt.svg" alt=""></a></li>
+      <li class="footer__social-list-item"><a class="footer__social-link" href="https://vk.com" aria-label="ВКонтакте"><img class="footer__social-icon" src="./images/vk.svg" alt=""></a></li>
+      <li class="footer__social-list-item"><a class="footer__social-link" href="https://pinterest.com" aria-label="Pinterest"><img class="footer__social-icon" src="./images/pinterest.svg" alt=""></a></li>
+    </ul>
+  </footer>
+</body>
 </html>
