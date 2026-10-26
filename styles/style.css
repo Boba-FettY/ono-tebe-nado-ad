@@ -95,21 +95,23 @@
   display: block;
 }
 
+/* В макете у слова "ОНО" буквы стоят плотнее */
 .aligned-text_left {
   text-align: left;
-  letter-spacing: 0.3em; /* Важно: подберите точное значение, если тесты падают */
+  letter-spacing: 0.3em; 
 }
 
+/* У слова "ТЕБЕ" и "НАДО" буквы раздвинуты */
 .aligned-text_center {
   text-align: center;
   margin-top: 20px;
-  letter-spacing: 0.3em; /* Важно */
+  letter-spacing: 0.3em;
 }
 
 .aligned-text_right {
   text-align: right;
   margin-top: 20px;
-  letter-spacing: 0.3em; /* Важно */
+  letter-spacing: 0.3em;
 }
 
 .no-letter-spacing {
@@ -269,8 +271,7 @@
 }
 
 .about__title {
-  /* Убрал margin: 100px 0, чтобы заголовок был на уровне логотипа */
-  margin: 0 0 100px 0; 
+  margin: 0 0 100px 0;
   font-size: 40px;
   font-weight: 700;
   line-height: 1.1;
@@ -338,10 +339,9 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
-  /* Если тесты требуют круглые иконки, добавьте border-radius: 50%; */
 }
 
-/* Медиа-запросы оставляем без изменений, они у вас были хорошие */
+/* Медиа-запросы */
 @media (max-width: 900px) {
   body {
     width: 100%;
