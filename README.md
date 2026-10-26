@@ -1,3 +1,1 @@
-Проект «Оно тебе надо»
-
-index.html
+https://github.com/Boba-FettY/ono-tebe-nado-ad
